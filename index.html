@@ -4,38 +4,56 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+			integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<h1>Farm Produce Direct</h1>
+		<div class="form">
+			<h1>Farm Produce Direct</h1>
+		<hr>
+		
 		<h2>Online Registration Form</h2>
+		<hr>
 
 		<form action="">
 			<h1>Client Details</h1>
-			<label for="">First Name*:</label> <input type="text" />
-			<label for="">Last Name*:</label> <input type="text" /><br />
+			<label for="">First Name<span>*</span>:</label> <input type="text" placeholder="First Name" />
+			<label for="">Last Name<span>*</span>:</label> <input type="text" placeholder="Last Name" /><br />
 			<label for=""
-				>Gender*: Male<input type="radio" /> Female<input
+				>Gender<span>*</span>: Male<input type="radio" /> Female<input
 					type="radio"
 				/> </label
 			><br />
 			<label for="">Date of Birth*: <input type="date" /></label>
 
 			<h1>Contact Details</h1>
-			<label for="">Address Line1*:</label> <input type="text" /><br />
-			<label for="">Address Line2:</label> <input type="text" /><br />
-			<label for="">Suburb*: <input type="text" /></label>
-			<label for="">Postal/Zip Code*: <input type="text" name="" id="" /></label
+			<label for="">Address Line1<span>*</span>:</label> <input type="text" placeholder="Address Line1" /><br />
+			<label for="">Address Line2:</label> <input type="text"  placeholder="Address Line2"/><br />
+			<label for="">Suburb<span>*</span>: <input type="text" placeholder="Suburb"/></label>
+			<label for="">Postal/Zip Code<span>*</span>: <input type="text" name="" id="" placeholder="Postal/Zip Code"/></label
 			><br />
-			<label for="">State/Province*: <input type="text" /></label><br />
-			<label for="">E-mail*: <input type="email" /></label><br />
-			<label for="">Phone*</label> <input type="number" /><br />
-			<label for="">Create password*</label> <input type="password" /><br />
-			<label for="">Re-enter password*</label> <input type="password" /><br />
+			<label for="">State/Province<span>*</span>: <input type="text" placeholder="State/Province"/></label><br />
+			<label for="">E-mail<span>*</span>: <input type="email" placeholder="E-mail"/></label><br />
+			<label for="">Phone*</label> <input type="number" placeholder="Phone"/><br />
+			<label for="">Create password<span>*</span></label> <input type="password" placeholder="password"/><br />
+			<label for="">Re-enter password<span>*</span></label> <input type="password" placeholder="password"/><br />
 
 			<h1>Product Selection</h1>
 			<label for=""
-				>Product Buying Preference*: Weekly <input type="radio" /> Forthnightly:
+				>Product Buying Preference<span>*</span>: Weekly <input type="radio" /> Forthnightly:
 				<input type="radio" /><br />
 				<p>**Discounts for weekly Orders**</p>
 				<label for=""
@@ -44,26 +62,26 @@
 					<input type="radio" /></label
 				><br />
 				<label for=""
-					>Diary Product*: Cheese <input type="radio" /> Milk
+					>Diary Product<span>*</span>: Cheese <input type="radio" /> Milk
 					<input type="radio"
 				/></label>
 			</label>
 
 			<h1>Delivery</h1>
-            <label for="">Address Line1*:</label> <input type="text" /><br />
-			<label for="">Address Line2:</label> <input type="text" /><br />
-			<label for="">Suburb*: <input type="text" /></label>
-			<label for="">Postal/Zip Code*: <input type="text" name="" id="" />
+            <label for="">Address Line1<span>*</span>:</label> <input type="text"  placeholder="Address Line1"/><br />
+			<label for="">Address Line2:</label> <input type="text"  placeholder="Address Line2"/><br />
+			<label for="">Suburb<span>*</span>: <input type="text" placeholder="Suburb"/></label>
+			<label for="">Postal/Zip Code<span>*</span>: <input type="text" name="" id="" placeholder="Postal/Zip Code"/>
             <p>**Delivery charges inclusive**</p>
             <p>**Region 1: $5.00, Region 2: $10.00, Region 3: $12.00**</p>
             <button>Change Order</button>
 
             <h1>Payment</h1>
-            <label for="">Name on Card*: <input type="text"></label><br>
-            <label for="">Card number*: <input type="text"></label><br>
-            <label for="">Expiry Date*: <input type="number" placeholder="Month/Year"></label>
-            <label for="">CVV*: <input type="number"></label><br>
-            <button>Proceed Payment</button>
+            <label for="">Name on Card<span>*</span>: <input type="text" placeholder="Name on Card"></label><br>
+            <label for="">Card number<span>*</span>: <input type="text" placeholder="Card Number"></label><br>
+            <label for="">Expiry Date<span>*</span>: <input type="number" placeholder="Month/Year"></label>
+            <label for="">CVV<span>*</span>: <input type="number" placeholder="cvv"></label><br>
+            <button>Register</button>
 
             <div>
                 <h3>Need Help? Visit our Help page</h3> <h2>FAQ</h2> <h2>Contact Us</h2>
@@ -71,5 +89,7 @@
 
 
 		</form>
+		</div>
+		
 	</body>
 </html>

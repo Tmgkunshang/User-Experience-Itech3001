@@ -1,0 +1,48 @@
+body {
+	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 2rem;
+	background-color: #6aadca;
+	width: 100%;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+input {
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+label {
+	font-weight: bold;
+}
+
+.form {
+	height: 100%;
+	width: 50%;
+	border: 2px solid rgb(98, 156, 184);
+	margin-left: 500px;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+button {
+	background-color: rgb(117, 72, 160);
+	border-radius: 5px;
+	padding: 8px;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+span {
+	color: rgb(184, 30, 30);
+}
