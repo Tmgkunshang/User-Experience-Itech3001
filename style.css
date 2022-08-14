@@ -1,20 +1,23 @@
 body {
 	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1rem;
+	font-size: 15px;
 	margin: 0;
 	padding: 0;
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 1rem;
 	background-color: #106488;
 	width: 100%;
 	color: #fff;
 }
 
 h2 {
-	font-size: 1.5rem;
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 input {
 	padding: 5px;
@@ -40,7 +43,7 @@ button {
 	background-color: rgb(38, 134, 158);
 	border-radius: 5px;
 	padding: 8px;
-	font-size: 1rem;
+	font-size: 10px;
 	font-weight: bold;
 	color: #fff;
 }
