@@ -1,15 +1,16 @@
 body {
 	background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	margin: 0;
 	padding: 0;
 }
 
 h1 {
 	font-size: 2rem;
-	background-color: #6aadca;
+	background-color: #106488;
 	width: 100%;
+	color: #fff;
 }
 
 h2 {
@@ -28,7 +29,7 @@ label {
 .form {
 	height: 100%;
 	width: 50%;
-	border: 2px solid rgb(98, 156, 184);
+	border: 2px solid rgb(27, 119, 165);
 	margin-left: 500px;
 	background-color: #fff;
 	padding: 10px;
@@ -36,11 +37,12 @@ label {
 }
 
 button {
-	background-color: rgb(117, 72, 160);
+	background-color: rgb(38, 134, 158);
 	border-radius: 5px;
 	padding: 8px;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	font-weight: bold;
+	color: #fff;
 }
 
 span {
