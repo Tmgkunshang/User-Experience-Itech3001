@@ -6,7 +6,8 @@ body {
 }
 
 h1 {
-	font-size: 1rem;
+	font-size: 1.2rem;
+	font-weight: 8000;
 	background-color: #397c0d;
 	width: 100%;
 	color: #fff;
