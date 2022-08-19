@@ -1,6 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+	font-size: 12px;
 	margin: 0;
 	padding: 0;
 }
@@ -8,7 +8,7 @@ body {
 h1 {
 	font-size: 1.2rem;
 	font-weight: 8000;
-	background-color: #397c0d;
+	background-color: #0d5a20;
 	width: 100%;
 	color: #fff;
 	padding-top: 10px;
@@ -39,14 +39,14 @@ label {
 .form {
 	height: 100%;
 	width: 30%;
-	border: 1px solid rgb(20, 172, 96);
+	border: 1px solid rgb(189, 182, 182);
 	margin-left: 500px;
 	background-color: #fff;
 	padding: 20px;
 }
 
 button {
-	background-color: #397c0d;
+	background-color: #0d5a20;
 	border-radius: 9px;
 	padding: 15px;
 	font-size: 1rem;
